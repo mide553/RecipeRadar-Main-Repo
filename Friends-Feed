@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend Feed</title>
+    <!-- Add any additional meta tags, stylesheets, or scripts here -->
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Your Friend Feed</h1>
+        <!-- Add any navigation links or user information here -->
+    </header>
+
+    <main>
+        <!-- Display friend posts dynamically using PHP -->
+        <?php
+            // Your PHP code to fetch and display posts will go here
+            // Example: $posts = getFriendPosts(); foreach($posts as $post) { // display post }
+        ?>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Friend Feed. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
